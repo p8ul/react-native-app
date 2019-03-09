@@ -1,0 +1,48 @@
+{
+  "name": "rn",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "cross-env REACT_EDITOR=code expo start",
+    "android": "cross-env REACT_EDITOR=code expo start --android",
+    "ios": "cross-env REACT_EDITOR=code expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint-config-airbnb": "17.1.0",
+    "expo": "^32.0.0",
+    "galio-framework": "^0.4.4",
+    "jsonwebtoken": "^8.5.0",
+    "prop-types": "^15.7.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-simple-auth": "^2.4.0",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-preset-expo": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "5.3.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-react-native": "^3.6.0",
+    "expo-cli": "^2.4.0",
+    "jest-expo": "^31.0.0",
+    "prettier": "^1.16.4",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
